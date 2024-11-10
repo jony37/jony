@@ -1,0 +1,98 @@
+/* logo img */
+.logo-img {
+    width: 100px;
+    height: 30px;
+}
+.size {
+    font-size: 23px;
+}
+
+/* navbar menu */
+.navbar-brand {
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* reviews-container */
+.reviews-container {
+    padding: 100px 50px;
+    background-color: #f0f5f9;
+}
+.reviews-container2 {
+    padding: 70px 70px;
+    background-color: #f0f5f9;
+}
+.husn {
+    background-color: #f0f5f8;
+}
+
+/* home section */
+.home-section {
+    background-color: #f0f5f9; padding: 150px 0px 100px 0;
+}
+
+/* about section */
+.about-section__box {
+    background-color: #fff2e5;
+}
+.bg-color {
+    background-color: #fff2e5;
+}
+.about-section__box img , .img-width {
+    width: 80px
+}
+.img-fif {
+    width: 50px;
+}
+.item__img {
+    width: 60px;
+    height: 60px;
+}
+.item__imge {
+    width: 100px;
+    height: 100px;
+}
+/* pricing section */
+.pricing__box {
+    background-color: #f0f5f9;
+}
+/* card */
+.card-color1 {
+    background-color: #fff2e5;
+}
+.card-fo {
+    background-color: #f8f9fa;
+}
+/* skill */
+.card-fo:hover {
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 50px;
+    box-shadow: 14px 15px 24px 0px rgba(0, 0, 0, 0.255);
+    transform: scale(1.0899);
+}
+.card-fo {
+    transition: all 0.5s ease;
+}
+.img-wi {
+    width: 150px !important;
+}
+/* footer */
+.footer-bg {
+    background-color: black;
+    color: white ;
+}
